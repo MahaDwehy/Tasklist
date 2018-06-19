@@ -32,7 +32,13 @@
                             <outlet property="delegate" destination="6jJ-Aa-TSL" id="0MR-G4-oyk"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Task List" id="yKN-uX-A32"/>
+                    <navigationItem key="navigationItem" title="Task List" id="yKN-uX-A32">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="rX4-AR-TiK">
+                            <connections>
+                                <action selector="addButton:" destination="6jJ-Aa-TSL" id="YBc-Ph-ir9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4T5-le-mW6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
